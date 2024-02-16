@@ -1,5 +1,7 @@
 <html>
 <head>
+<link rel="icon" href="icon.png" type="image/x-icon"/>
+<title>Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -59,9 +61,38 @@ span.psw {
   }
 }
 </style>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav {
+  float: left;
+}
+
+#nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background-color: #111;
+}
+</style>
 </head>
 <body>
-
+	<ul>
+		<li id="nav"><a class="active" href="index.html">Home</a></li>
+		<li id="nav"><a href="about.html">About us</a></li>
+		<li id="nav"><a href="Login.html">Login</a></li>
+	</ul>
 <h2>EduPoint Login Form</h2>
 
 <form action="/index.html" method="post">
